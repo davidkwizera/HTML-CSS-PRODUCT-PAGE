@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo img{
+    width: 5rem;
+    height: 3rem;
+}
+.logo{
+    margin-left: 5rem;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#fbf30c;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.rotateimg180 {
+    -webkit-transform:rotate(-17deg);
+    -moz-transform: rotate(-17ddeg);
+    -ms-transform: rotate(-17ddeg);
+    -o-transform: rotate(-17ddeg);
+    transform: rotate(-17ddeg);
+
+  }
+
+.product{
+    margin-right:30rem;
+
+}
+.product a{
+    text-decoration: none;
+    color: green;
+}
+
+ul a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: green;
+}
+
+nav{
+    margin-right:5rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#fbf30c;
+    /* flex-basis:100%; */
+    max-width: 100%;
+
+}
+
+.right-content img{
+width: 40rem;
+height: 40rem;
+
+}
+
+.left-content{
+    color:  green;
+    margin-top: 150px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.whitedot{
+    color:white;
+}
+
+.text{
+    width: 13rem;
+    margin-bottom: 30px;;
+}
+
+.email-input{
+    border-radius: 10px;
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color:  green;
+    color:whitesmoke;
+    border: none;
+    margin-left: 35px;
+}
+.btn:hover{
+   background-color: green;
+}
